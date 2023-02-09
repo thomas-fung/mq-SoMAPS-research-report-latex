@@ -1,0 +1,32 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Macquaire University School of Mathematical & Physical Sciences \LaTeX Research Report Template
+
+<!-- badges: start -->
+
+<img src="https://user-images.githubusercontent.com/15133161/200966938-ba6f8413-fa77-4ccb-b16d-d7cf14926057.png" align="right" width="150"/>
+
+<!-- badges: end -->
+
+This is a LaTeX class file that can be used in the preparation of a research report with the branding from School of Mathematical & Physical Sciences \@ Macquarie University.
+
+Within this directory you will find,
+
+|                               |                          |
+|-------------------------------|--------------------------|
+| template.tex                  | The main \LaTeX file     |
+| preamble.tex, MQ-logo-col.png | Frontmatter files & Logo |
+| references.bib                | Sample BibTeX file       |
+
+The style of the report is heavily inspired by the Monash University Report of Rob Hyndman. You can check out the original `monash` repo here: [link](https://github.com/numbats/monash).
